@@ -1,0 +1,10 @@
+int largest(vector<int> &arr, int n)
+    {
+        int largest=arr[0];
+        for(int i=i;i<n;i++){
+            if(arr[i]>largest){
+                largest= arr[i];
+            }
+        }
+        return largest;
+    }
